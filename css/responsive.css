@@ -1,0 +1,139 @@
+/*Styles spécifiques pour les écrans de taille moyenne type tablette*/
+@media screen and (max-width: 760px){
+  
+    /*********** HEADER *****/
+    .infos
+    {
+        display: none;
+    }
+
+    .header-inner-container
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #logo
+    {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    nav
+    {
+        background-color: #000;
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+        flex-direction: row;
+        width: 85%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    nav ul li
+    {
+      margin: auto;
+       font-weight: bold;
+       font-size:0.65em;
+    }
+
+    /********** BLOC #1 **********/
+
+    .main-img
+    {
+        margin: 15em 0 0 0;
+        width: 100%;
+    }
+
+    /********** BLOC #2 **********/
+    .abt-container
+    {
+        display: flex;
+        display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sub-abt-container
+    {
+        width: 98%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .img-academy
+    {
+        width: 100%;
+    }
+
+    .para-abt
+    {
+        text-align: justify;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        padding: 2px;
+    }
+
+    .action-call{
+        width: 90%;
+        height: 3em;
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        background-color: lightgreen;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      /********** FOOTER *********/
+      .container-footer{
+        display: flex;
+        display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .sub-footer 
+      {
+          width: 100%;
+      }
+
+      .sub-footer h4, p {
+          text-align: center;
+      }
+
+      .sub-footer-2 h4 {
+        margin-left: 0;
+      }
+
+      .liens
+      {
+          display: block;
+          margin: 0 auto;
+          width: 35%;
+      }
+}
+/*Styles spécifiques pour les grands écrans type écrans d'ordinateur*/
+@media screen and (min-width: 980px){
+    
+}
